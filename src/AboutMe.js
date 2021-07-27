@@ -291,28 +291,21 @@ const AboutMe = () => {
                         </a>
                     </div><br/><br/>
                     <div className="projectDesc">
-                        이 프로젝트는 <strong>요즘 뜨고있는 배달의 민족을 벤치마킹해서 Jquery와 ajax 비동기 통신으로 구현한 Single Page Application과 Client Side Rendering에 학습 초점</strong>을 둔 배달 중개 플랫폼 프로젝트 입니다.
-                        이 또한 비트캠프 학원에서 팀을 이뤄 4명의 팀원과 함께 <span>소통하며 협업</span>하는 방법도 배울 수 있었던 저의 첫 프로젝트였습니다.<br/>
-                        소통방법은 <span>API 명세</span>를 문서로 작성하였고 툴은 <span>Notion, Github</span>를 사용하여 소통하였습니다.
-                        <br/><br/>이 프로젝트에서 제가 맡은 역할은 Jquery를 이용한 프론트엔드 영역이였는데 <span>로그인, 회원가입, 회원정보 관리 및 탈퇴, Seller&Product List</span> 등 이었습니다. 이 작업을 하며 
-                        <span>ajax 비동기통신의 get/post/update/delete 의 개념과 Data의 의존성</span>에 대해 더욱 더 이해할 수 있었습니다. 이 프로젝트에서 겪은 어려움은 데이터를 주고 받는 이해도가 없어서 어려웠지만
-                        팀원들과의 지식 공유 및 소통으로 많은 학습이 되었던 프로젝트였습니다.
+                        이 프로젝트는 포트폴리오 용도로 제작한 <span>React 기반</span>의 프로젝트입니다. 프론트엔드 개발에 집중하여 <span>배포경험</span>도 해볼 수 있는 기회였습니다.<br/>
+                        지금 보고 계신 사이트에 해당하는 프로젝트입니다. 부트스트랩의 <span>carousel</span>을 사용하여 화면의 움직임을 주었고 <span>materialIcon</span>을 사용하여 직관적으로 표현하려 노력했습니다.
                     </div>
                     <div className="projectsDesc2">
                         <div style={{fontSize:'1.5em', fontWeight:'bolder'}}><CheckCircleIcon/> 요구 사항</div>
-                        <div style={{fontSize:'1.2em'}}><strong>회원정보</strong>(회원가입,로그인,정보수정,회원탈퇴)<br/>
-                        <strong>Client</strong>(주문 시스템,리뷰작성,결제,장바구니)<br/>
-                        <strong>Seller</strong>(가게등록,판매관리,리뷰관리)
+                        <div style={{fontSize:'1.2em'}}><strong>자기소개 및 인적 사항</strong><br/>
+                        <strong>나의 발자취</strong><br/>
+                        <strong>기술 스택</strong><br/>
+                        <strong>프로젝트 경험</strong>
                         </div><br/>
                         <div style={{fontSize:'1.5em', fontWeight:'bolder'}}><CheckCircleIcon/>FrontEnd</div>
-                        <div style={{fontSize:'1.2em'}}>Jquery, Ajax, Json, HTML, Bootstrap3, CSS</div><br/>
-                        <div style={{fontSize:'1.5em', fontWeight:'bolder'}}><CheckCircleIcon/>BackEnd</div>
-                        <div style={{fontSize:'1.2em'}}>Spring, MariaDB, Jenkins</div><br/>
-                        <div style={{fontSize:'1.5em', fontWeight:'bolder'}}><CheckCircleIcon/>Infra Structure</div>
-                        <div style={{fontSize:'1.2em'}}>aws(EC2), docker, Apache Tomcat, Ubuntu</div><br/>
+                        <div style={{fontSize:'1.2em'}}>React, javaScript, HTML, Bootstrap4, materialIcon, CSS</div><br/>
                         <div style={{fontSize:'1.5em', fontWeight:'bolder'}}><GitHubIcon/>GIthub</div>
                         <div className="aWrap">
-                            <a href="https://github.com/dudwo1996/deliverypp" target="_blank" rel="noopener noreferrer">https://github.com/dudwo1996/deliverypp</a>
+                            <a href="https://github.com/dudwo1996/MyPortfolio" target="_blank" rel="noopener noreferrer">https://github.com/dudwo1996/MyPortfolio</a>
                         </div><br/>
                     </div>
                 </div>
