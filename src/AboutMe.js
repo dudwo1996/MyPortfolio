@@ -41,17 +41,17 @@ const AboutMe = () => {
                     <table className="careerTable">
                         <tbody>
                             <tr style={{ borderTop: '1px solid black', borderBottom: '1px solid black', height: '120px' }}>
-                                <td style={{ borderCollapse: 'collapse' }}><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><MenuBookIcon />비트캠프</span></td>
+                                <td style={{ borderCollapse: 'collapse' }}><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><MenuBookIcon fontSize="large"/>비트캠프</span></td>
                                 <td style={{ borderCollapse: 'collapse' }}>개발자 양성과정B 수료<br />-Final_Project (쇼핑몰 서비스 구현)<br />-Semi_Project (배달 서비스 구현)</td>
                                 <td style={{ borderCollapse: 'collapse' }}>2021.02~2021.07</td>
                             </tr>
                             <tr style={{ borderBottom: '1px solid black', height: '120px' }}>
-                                <td><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><BusinessIcon />(주)유씨피아이</span></td>
+                                <td><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><BusinessIcon fontSize="large" />(주)유씨피아이</span></td>
                                 <td>현장 실습 인턴<br />-(주)유씨피아이 홈페이지 소스 관리 및 유지보수</td>
                                 <td>2020.03~2020.12</td>
                             </tr>
                             <tr style={{ borderBottom: '1px solid black', height: '120px' }}>
-                                <td><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><SchoolIcon />한서대학교</span></td>
+                                <td><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><SchoolIcon fontSize="large"/>한서대학교</span></td>
                                 <td>컴퓨터공학과 졸업<br />-C/C++/Java/JavaScript/Jquery/Html 등의 언어 학습</td>
                                 <td>2015.03~2021.02</td>
                             </tr>
