@@ -22,37 +22,37 @@ const AboutMe = () => {
                     <table className="AboutMeTable">
                         <tbody>
                             <tr>
-                                <td><AccountCircleIcon fontSize="large"/><br />이름<br /><br />조영재</td>
-                                <td><CalendarTodayIcon fontSize="large"/><br />생년월일<br /><br />1996.04.29</td>
-                                <td><HomeIcon fontSize="large"/><br />거주지<br /><br />수원시 장안구</td>
+                                <td><AccountCircleIcon fontSize="large" /><br />이름<br /><br />조영재</td>
+                                <td><CalendarTodayIcon fontSize="large" /><br />생년월일<br /><br />1996.04.29</td>
+                                <td><HomeIcon fontSize="large" /><br />거주지<br /><br />수원시 장안구</td>
                             </tr>
                             <tr>
-                                <td><CallIcon fontSize="large"/><br />연락처<br /><br />010-4283-7204</td>
-                                <td><MailIcon fontSize="large"/><br />이메일<br /><br />wo_123@naver.com</td>
-                                <td><SchoolIcon fontSize="large"/><br />최종학력<br /><br />한서대학교 졸업<br />(컴퓨터공학과)</td>
+                                <td><CallIcon fontSize="large" /><br />연락처<br /><br />010-4283-7204</td>
+                                <td><MailIcon fontSize="large" /><br />이메일<br /><br />wo_123@naver.com</td>
+                                <td><SchoolIcon fontSize="large" /><br />최종학력<br /><br />한서대학교 졸업<br />(컴퓨터공학과)</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
             <div style={{ height: '750px' }}>
-                <div id="MyCareerBox" className="title" style={{marginTop:'300px'}}>My career</div>
+                <div id="MyCareerBox" className="title" style={{ marginTop: '300px' }}>My career</div>
                 <div className="careerDesc">
                     <table className="careerTable">
                         <tbody>
-                            <tr style={{borderTop:'1px solid black',borderBottom:'1px solid black', height:'120px'}}>
-                                <td style={{ borderCollapse: 'collapse'}}><span style={{fontSize:'1.5em',fontWeight:'bolder'}}><MenuBookIcon />비트캠프</span></td>
-                                <td style={{ borderCollapse: 'collapse'}}>개발자 양성과정B 수료<br/>-Final_Project (쇼핑몰 서비스 구현)<br/>-Semi_Project (배달 서비스 구현)</td>
-                                <td style={{ borderCollapse: 'collapse'}}>2021.02~2021.07</td>
+                            <tr style={{ borderTop: '1px solid black', borderBottom: '1px solid black', height: '120px' }}>
+                                <td style={{ borderCollapse: 'collapse' }}><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><MenuBookIcon />비트캠프</span></td>
+                                <td style={{ borderCollapse: 'collapse' }}>개발자 양성과정B 수료<br />-Final_Project (쇼핑몰 서비스 구현)<br />-Semi_Project (배달 서비스 구현)</td>
+                                <td style={{ borderCollapse: 'collapse' }}>2021.02~2021.07</td>
                             </tr>
-                            <tr style={{borderBottom:'1px solid black', height:'120px'}}>
-                                <td><span style={{fontSize:'1.5em',fontWeight:'bolder'}}><BusinessIcon />(주)유씨피아이</span></td>
-                                <td>현장 실습 인턴<br/>-(주)유씨피아이 홈페이지 소스 관리 및 유지보수</td>
+                            <tr style={{ borderBottom: '1px solid black', height: '120px' }}>
+                                <td><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><BusinessIcon />(주)유씨피아이</span></td>
+                                <td>현장 실습 인턴<br />-(주)유씨피아이 홈페이지 소스 관리 및 유지보수</td>
                                 <td>2020.03~2020.12</td>
                             </tr>
-                            <tr style={{borderBottom:'1px solid black', height:'120px'}}>
-                                <td><span style={{fontSize:'1.5em',fontWeight:'bolder'}}><SchoolIcon />한서대학교</span></td>
-                                <td>컴퓨터공학과 졸업<br/>-C/C++/Java/JavaScript/Jquery/Html 등의 언어 학습</td>
+                            <tr style={{ borderBottom: '1px solid black', height: '120px' }}>
+                                <td><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><SchoolIcon />한서대학교</span></td>
+                                <td>컴퓨터공학과 졸업<br />-C/C++/Java/JavaScript/Jquery/Html 등의 언어 학습</td>
                                 <td>2015.03~2021.02</td>
                             </tr>
                         </tbody>
@@ -63,11 +63,11 @@ const AboutMe = () => {
                 <div id="MySkillsBox" className="title">My Skills</div>
                 <div className="skillsImg"><img alt="" src="react.png" /></div>
                 <div className="skillsImg"><img alt="" src="css.jpg" /></div>
-                <div className="skillsImg"><img alt="" src="jquery.png" /></div><br/><br/><br/>
+                <div className="skillsImg"><img alt="" src="jquery.png" /></div><br /><br /><br />
                 <div className="skillsImg"><img alt="" src="java.PNG" /></div>
                 <div className="skillsImg"><img alt="" src="spring.PNG" /></div>
                 <div className="skillsImg"><img alt="" src="springboot.PNG" /></div>
-                <div className="skillsImg"><img alt="" src="ajax.PNG" /></div><br/><br/><br/>
+                <div className="skillsImg"><img alt="" src="ajax.PNG" /></div><br /><br /><br />
                 <div className="skillsImg"><img alt="" src="mysql.PNG" /></div>
                 <div className="skillsImg"><img alt="" src="python.PNG" /></div>
                 <div className="skillsImg"><img alt="" src="eclipse.PNG" /></div>
@@ -81,10 +81,10 @@ const AboutMe = () => {
                             <img alt="이미지없음" src="git-hub.png" style={{ marginTop: '4%' }} /><br /><br />
                             <div style={{ textAlign: 'center', fontSize: '1.5em' }}><GitHubIcon />소스코드 저장소</div>
                             <div className="aWrap" style={{ textAlign: 'center' }}><a href="https://github.com/dudwo1996" target="_blank" rel="noopener noreferrer">https://github.com/dudwo1996</a></div><br /><br />
-                            <div style={{width:'81%', margin:'auto'}}>
-                                <div style={{ fontSize: '1.5em', textAlign:'left' }}>⊙ 비트캠프 학원을 다니며 구현한 프로젝트의 소스 코드</div>
-                                <div style={{ fontSize: '1.5em', textAlign:'left' }}>⊙ 혼자서 코딩 연습을 한 소스 코드</div>
-                                <div style={{ fontSize: '1.5em', textAlign:'left' }}>⊙ 지금 만든 포트폴리오의 소스 코드</div>
+                            <div style={{ width: '81%', margin: 'auto' }}>
+                                <div style={{ fontSize: '1.5em', textAlign: 'left' }}>⊙ 비트캠프 학원을 다니며 구현한 프로젝트의 소스 코드</div>
+                                <div style={{ fontSize: '1.5em', textAlign: 'left' }}>⊙ 혼자서 코딩 연습을 한 소스 코드</div>
+                                <div style={{ fontSize: '1.5em', textAlign: 'left' }}>⊙ 지금 만든 포트폴리오의 소스 코드</div>
                             </div>
                         </div>
                     </a>
@@ -92,11 +92,11 @@ const AboutMe = () => {
             </div>
 
             <div className="projectsWrap">
-                <div id="MyProjectsBox" className="title">My projects</div><br /><br />
+                <div id="MyProjectsBox" className="title">My projects</div>
 
                 <div style={{ padding: '3%', borderRadius: '4%', backgroundColor: 'white', float: 'left', width: '80%', marginLeft: '10%', height: 'auto', textAlign: 'center' }}>
                     <h2>COPANG</h2>
-                    <div id="myCarousel" className="carousel slide" data-ride="carousel" style={{ padding:'5%',width: '80%', margin: 'auto' }}>
+                    <div id="myCarousel" className="carousel slide" data-ride="carousel" style={{ padding: '5%', width: '80%', margin: 'auto' }}>
 
                         <ol className="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
@@ -110,22 +110,20 @@ const AboutMe = () => {
                             <div className="item active">
                                 <img src="캡처.PNG" alt="" style={{ width: '80%', height: '500px', margin: 'auto' }} />
                             </div>
-
                             <div className="item">
-                                <img src="캡처2.PNG" alt="" style={{ width: '80%', height: '500px', margin: 'auto' }} />
-                            </div>
-
-                            <div className="item">
-                                <img src="캡처3.PNG" alt="" style={{ width: '80%', height: '500px', margin: 'auto' }} />
+                                <img src="캡처2.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                             <div className="item">
-                                <img src="캡처4.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="캡처3.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                             <div className="item">
-                                <img src="캡처5.PNG" alt="" style={{ width: '80%', height: '500px', margin: 'auto' }} />
+                                <img src="캡처4.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                             <div className="item">
-                                <img src="캡처6.PNG" alt="" style={{ width: '80%', height: '500px', margin: 'auto' }} />
+                                <img src="캡처5.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
+                            </div>
+                            <div className="item">
+                                <img src="캡처6.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                         </div>
                         <a className="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -169,7 +167,7 @@ const AboutMe = () => {
                 </div>
                 <div style={{ padding: '3%', borderRadius: '4%', backgroundColor: 'white', float: 'left', width: '80%', marginTop: '5%', marginLeft: '10%', height: 'auto', textAlign: 'center' }}>
                     <h2>배달 중개 플랫폼 프로젝트</h2>
-                    <div id="myCarousel2" className="carousel slide" data-ride="carousel" style={{ padding:'5%', width: '80%', margin: 'auto' }}>
+                    <div id="myCarousel2" className="carousel slide" data-ride="carousel" style={{ padding: '5%', width: '80%', margin: 'auto' }}>
 
                         <ol className="carousel-indicators">
                             <li data-target="#myCarousel2" data-slide-to="0" className="active"></li>
@@ -181,24 +179,24 @@ const AboutMe = () => {
                         </ol>
                         <div className="carousel-inner">
                             <div className="item active">
-                                <img src="배달.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="배달.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
 
                             <div className="item">
-                                <img src="배달2.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="배달2.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
 
                             <div className="item">
-                                <img src="배달3.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="배달3.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                             <div className="item">
-                                <img src="배달4.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="배달4.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                             <div className="item">
-                                <img src="배달5.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="배달5.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                             <div className="item">
-                                <img src="배달6.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="배달6.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                         </div>
                         <a className="left carousel-control" href="#myCarousel2" data-slide="prev">
@@ -238,7 +236,7 @@ const AboutMe = () => {
                 </div>
                 <div style={{ padding: '3%', borderRadius: '4%', backgroundColor: 'white', float: 'left', width: '80%', marginTop: '5%', marginLeft: '10%', height: '1000px', textAlign: 'center' }}>
                     <h2>포트폴리오 프로젝트</h2>
-                    <div id="myCarousel3" className="carousel slide" data-ride="carousel" style={{ padding:'5%',width: '80%', margin: 'auto' }}>
+                    <div id="myCarousel3" className="carousel slide" data-ride="carousel" style={{ padding: '5%', width: '80%', margin: 'auto' }}>
 
                         <ol className="carousel-indicators">
                             <li data-target="#myCarousel3" data-slide-to="0" className="active"></li>
@@ -250,24 +248,24 @@ const AboutMe = () => {
                         </ol>
                         <div className="carousel-inner">
                             <div className="item active">
-                                <img src="배달.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="포폴1.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
 
                             <div className="item">
-                                <img src="배달2.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="포폴2.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
 
                             <div className="item">
-                                <img src="배달3.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="포폴3.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                             <div className="item">
-                                <img src="배달4.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="포폴4.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                             <div className="item">
-                                <img src="배달5.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="포폴5.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                             <div className="item">
-                                <img src="배달6.PNG" alt="" style={{ width: '60%', height: '500px', margin: 'auto' }} />
+                                <img src="포폴6.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                         </div>
                         <a className="left carousel-control" href="#myCarousel3" data-slide="prev">
