@@ -11,6 +11,7 @@ import MenuBookIcon from '@material-ui/icons/MenuBook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
+import DoneIcon from '@material-ui/icons/Done';
 
 
 const AboutMe = () => {
@@ -40,20 +41,25 @@ const AboutMe = () => {
                 <div className="careerDesc">
                     <table className="careerTable">
                         <tbody>
-                            <tr style={{ borderTop: '1px solid black', borderBottom: '1px solid black', height: '120px' }}>
+                            <tr style={{borderBottom: '1px solid black', height: '120px' }}>
                                 <td style={{ borderCollapse: 'collapse' }}><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><MenuBookIcon fontSize="large"/>비트캠프</span></td>
-                                <td style={{ borderCollapse: 'collapse' }}>개발자 양성과정B 수료<br />-Final_Project (쇼핑몰 서비스 구현)<br />-Semi_Project (배달 서비스 구현)</td>
+                                <td style={{ borderCollapse: 'collapse' }}><span><DoneIcon/>개발자 양성과정B 수료</span><div style={{marginTop:'15px', marginBottom:'3px'}}>-Final_Project (쇼핑몰 서비스 구현)</div><div>-Semi_Project (배달 서비스 구현)</div></td>
                                 <td style={{ borderCollapse: 'collapse' }}>2021.02~2021.07</td>
                             </tr>
                             <tr style={{ borderBottom: '1px solid black', height: '120px' }}>
                                 <td><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><BusinessIcon fontSize="large" />(주)유씨피아이</span></td>
-                                <td>현장 실습 인턴<br />-(주)유씨피아이 홈페이지 소스 관리 및 유지보수</td>
+                                <td><span><DoneIcon/>현장 실습 인턴</span><div style={{marginTop:'15px'}}>-(주)유씨피아이 홈페이지 소스 관리 및 유지보수</div></td>
                                 <td>2020.03~2020.12</td>
                             </tr>
-                            <tr style={{ borderBottom: '1px solid black', height: '120px' }}>
+                            <tr style={{borderBottom: '1px solid black', height: '120px' }}>
                                 <td><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><SchoolIcon fontSize="large"/>한서대학교</span></td>
-                                <td>컴퓨터공학과 졸업<br />-C/C++/Java/JavaScript/Jquery/Html 등의 언어 학습</td>
+                                <td><span><DoneIcon/>컴퓨터공학과 졸업</span><div style={{marginTop:'15px'}}>-C/C++/Java/JavaScript/Jquery/Html 등의 언어 학습</div></td>
                                 <td>2015.03~2021.02</td>
+                            </tr>
+                            <tr style={{height: '120px' }}>
+                                <td><span style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><SchoolIcon fontSize="large"/>동원고등학교</span></td>
+                                <td><span><DoneIcon/>인문계 고등학교 이과계열 졸업</span></td>
+                                <td>2012.03~2015.02</td>
                             </tr>
                         </tbody>
                     </table>
@@ -95,7 +101,7 @@ const AboutMe = () => {
                 <div id="MyProjectsBox" className="title">My projects</div>
 
                 <div style={{ padding: '3%', borderRadius: '4%', backgroundColor: 'white', float: 'left', width: '80%', marginLeft: '10%', height: 'auto', textAlign: 'center' }}>
-                    <h2>COPANG</h2>
+                    <h1>COPANG</h1>
                     <div id="myCarousel" className="carousel slide" data-ride="carousel" style={{ padding: '5%', width: '80%', margin: 'auto' }}>
 
                         <ol className="carousel-indicators">
@@ -166,7 +172,7 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <div style={{ padding: '3%', borderRadius: '4%', backgroundColor: 'white', float: 'left', width: '80%', marginTop: '5%', marginLeft: '10%', height: 'auto', textAlign: 'center' }}>
-                    <h2>배달 중개 플랫폼 프로젝트</h2>
+                    <h1>배달의 민족</h1>
                     <div id="myCarousel2" className="carousel slide" data-ride="carousel" style={{ padding: '5%', width: '80%', margin: 'auto' }}>
 
                         <ol className="carousel-indicators">
@@ -228,14 +234,14 @@ const AboutMe = () => {
                         <div style={{ fontSize: '1.2em' }}>-Spring, MariaDB, Jenkins</div><br />
                         <div style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><CheckCircleIcon />Infra Structure</div>
                         <div style={{ fontSize: '1.2em' }}>-aws(EC2), docker, Apache Tomcat, Ubuntu</div><br />
-                        <div style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><GitHubIcon />GIthub</div>
+                        <div style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><GitHubIcon/>GIthub</div>
                         <div className="aWrap">
                             <a href="https://github.com/dudwo1996/deliverypp" target="_blank" rel="noopener noreferrer">*https://github.com/dudwo1996/deliverypp*</a>
                         </div><br />
                     </div>
                 </div>
                 <div style={{ padding: '3%', borderRadius: '4%', backgroundColor: 'white', float: 'left', width: '80%', marginTop: '5%', marginLeft: '10%', height: '1000px', textAlign: 'center' }}>
-                    <h2>포트폴리오 프로젝트</h2>
+                    <h1>CYJ's 포트폴리오</h1>
                     <div id="myCarousel3" className="carousel slide" data-ride="carousel" style={{ padding: '5%', width: '80%', margin: 'auto' }}>
 
                         <ol className="carousel-indicators">
@@ -291,9 +297,9 @@ const AboutMe = () => {
                         <div style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><CheckCircleIcon />FrontEnd</div>
                         <div style={{ fontSize: '1.2em' }}>-React, javaScript, HTML, Bootstrap4, materialUI/Icon, CSS</div><br />
                         <div style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><GitHubIcon />GIthub</div>
-                        <div className="aWrap">
+                        <div className="aWrap" style={{height:'200px'}}>
                             <a href="https://github.com/dudwo1996/MyPortfolio" target="_blank" rel="noopener noreferrer">*https://github.com/dudwo1996/MyPortfolio*</a>
-                        </div><br />
+                        </div>
                     </div>
                 </div>
             </div>

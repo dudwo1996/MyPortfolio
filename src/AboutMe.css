@@ -6,8 +6,9 @@ div.title{
     line-height: 400px;
     text-align: center;
     font-weight: bold;
-    font-size: 40pt;
-    margin-top: 300px;
+    font-size: 50pt;
+    margin-top: 164px;
+    font-family: 'Lilita One';
 }
 
 div.desc{
@@ -27,6 +28,7 @@ ul {
 table.AboutMeTable{
     width: 60%;
     margin: auto;
+    font-family: 'Hahmlet';
 }
 
 table.AboutMeTable tr{
@@ -50,8 +52,8 @@ div.careerDesc{
 }
 
 div.careerDesc span{
-    margin: 8%;
-    text-align: center;
+    font-size: large;
+    font-weight: 600;
 }
 
 div.MySkillsWrap{
@@ -68,7 +70,7 @@ div.skillsImg{
     border-radius: 5%;
 }
 div.MySkillsWrap img{
-    width: 150px;
+    width: 180px;
     height: 120px;
     border-radius: 4%;
 }
@@ -76,9 +78,11 @@ div.MySkillsWrap img{
 table.careerTable{
     width: 60%;
     margin: auto;
+    font-family: 'Hahmlet';
 }
 div.MyGitHubWrap{
     height: 750px;
+    font-family: 'Hahmlet';
 }
 table.careerTable tr{
 height: 50px;
@@ -98,7 +102,7 @@ div.ArchivingWrap{
 
 div.ArchivingImg{
     display: inline-block;
-    border: 1px solid black;
+    border: 2px solid black;
     width: 650px;
     height: 350px;
     border-radius: 4%;
@@ -127,6 +131,7 @@ div.projectDesc{
     font-size: large;
     float: left;
     text-align: left;
+    font-family: 'Nanum Gothic';
 }
 
 
@@ -139,12 +144,14 @@ div.projectsDesc2{
     float: left;
     text-align: left;
     margin-left: 8%;
+    font-family: 'Nanum Gothic';
 }
 
 div.projectsWrap{
     height: 300px;
 }
 
-h2{
+h1{
     margin-bottom: 50px;
+    font-family: 'Black Han Sans';
 }

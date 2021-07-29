@@ -1,11 +1,70 @@
 span.nameLogo{
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: 800;
     cursor: pointer;
+    font-family: 'Lilita One';
+}
+span.nameLogo:hover{
+    color: white;
 }
 
-span.header{
+span.header1{
     font-size: 3rem;
+    font-family: 'Lilita One';
+    cursor: pointer;
+}
+span.header1:hover{
+    color: white;
+}
+
+span.header2{
+    font-size: 3rem;
+    font-family: 'Lilita One';
+    cursor: pointer;
+}
+span.header2:hover{
+    color: white;
+}
+span.header3{
+    font-size: 3rem;
+    font-family: 'Lilita One';
+    cursor: pointer;
+}
+span.header3:hover{
+    color: white;
+}
+span.header4{
+    font-size: 3rem;
+    font-family: 'Lilita One';
+    cursor: pointer;
+}
+span.header4:hover{
+    color: white;
+}
+span.header5{
+    font-size: 3rem;
+    font-family: 'Lilita One';
+    cursor: pointer;
+}
+span.header5:hover{
+    color: white;
+}
+div.more{
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: rgb(116, 33, 194);
+    color: white;
+    font-size: 18pt;
+}
+
+div.more:hover{
+    background-color: rgb(139, 2, 243);
 }
 
 div.introSelf{
@@ -15,6 +74,7 @@ div.introSelf{
     height: 100px;
     line-height: 100px;
     margin-top: 200px;
+    font-family: 'Hahmlet';
 }
 
 div.introSelf2{
@@ -23,6 +83,7 @@ div.introSelf2{
     font-weight: bold;
     height: 100px;
     line-height: 100px;
+    font-family: 'Hahmlet';
 }
 
 
@@ -46,7 +107,7 @@ div.headerWrap{
     top: 0;
     left: 0;
     right: 0;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 153, 0);
     padding: 1rem;
     font-weight: bold;
     display: flex;
