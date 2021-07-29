@@ -36,7 +36,7 @@ const MyPortfolio = () => {
                 <div className="introSelf2">
                     리액트 개발자 포트폴리오
                 </div>
-                <div style={{ textAlign: 'center', fontSize: '50pt'}}>-</div>
+                <div style={{ textAlign: 'center', fontSize: '50pt'}}>ㅡ</div>
                 <div className="mydesc">안녕하세요.<div style={{marginTop:'12px'}}>저는 프론트엔드 개발자를 꿈꾸는 조영재입니다.</div></div>
             </div><br/><br/><br/>
             <div className="more" onClick={AboutMe}>더 보기</div>
