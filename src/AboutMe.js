@@ -15,6 +15,9 @@ import DoneIcon from '@material-ui/icons/Done';
 
 
 const AboutMe = () => {
+    const Top=()=>{
+        window.scrollTo(0,0)
+    }
     return (
         <div>
             <div className="wrap" style={{ height: '640px' }}>
@@ -296,11 +299,18 @@ const AboutMe = () => {
                         </div><br />
                         <div style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><CheckCircleIcon />FrontEnd</div>
                         <div style={{ fontSize: '1.2em' }}>-React, javaScript, HTML, Bootstrap4, materialUI/Icon, CSS</div><br />
+                        <div style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><FileCopyIcon />CYJ's Portfolio URL</div>
+                        <div className="aWrap">
+                            <a href="https://cyjportfolio.netlify.app" target="_blank" rel="noopener noreferrer">*https://cyjportfolio.netlify.app*</a>
+                        </div><br/>
                         <div style={{ fontSize: '1.5em', fontWeight: 'bolder' }}><GitHubIcon />GIthub</div>
                         <div className="aWrap" style={{height:'200px'}}>
                             <a href="https://github.com/dudwo1996/MyPortfolio" target="_blank" rel="noopener noreferrer">*https://github.com/dudwo1996/MyPortfolio*</a>
                         </div>
                     </div>
+                </div>
+                <div onClick={Top} className="more" style={{border:'1px soild black',marginTop:'15%', borderRadius: '100px', backgroundColor: 'rgb(116, 33, 194)', float: 'left', width: '10%', marginLeft: '45%', textAlign: 'center' }}>
+                    처음으로
                 </div>
             </div>
         </div>
