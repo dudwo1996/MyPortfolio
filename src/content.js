@@ -14,12 +14,14 @@ import FileCopyIcon from '@material-ui/icons/FileCopy';
 import DoneIcon from '@material-ui/icons/Done';
 
 
-const AboutMe = () => {
+const content = () => {
+    //맨위로 스크롤 이벤트
     const Top=()=>{
         window.scrollTo(0,0)
     }
     return (
         <div>
+            {/* 나의 정보 */}
             <div className="wrap" style={{ height: '640px' }}>
                 <div id="AboutMeBox" className="title">About Me</div>
                 <div className="desc">
@@ -39,6 +41,7 @@ const AboutMe = () => {
                     </table>
                 </div>
             </div>
+            {/* 나의 발자취 */}
             <div style={{ height: '750px' }}>
                 <div id="MyCareerBox" className="title" style={{ marginTop: '300px' }}>My career</div>
                 <div className="careerDesc">
@@ -68,6 +71,7 @@ const AboutMe = () => {
                     </table>
                 </div>
             </div>
+            {/* 나의 기술 */}
             <div className="MySkillsWrap">
                 <div id="MySkillsBox" className="title">My Skills</div>
                 <div className="skillsImg"><img alt="" src="react.png" /></div>
@@ -82,6 +86,7 @@ const AboutMe = () => {
                 <div className="skillsImg"><img alt="" src="eclipse.PNG" /></div>
                 <div className="skillsImg"><img alt="" src="vscode.PNG" /></div>
             </div>
+            {/* 나의 github */}
             <div className="MyGitHubWrap">
                 <div id="MyGithubBox" className="title">My GitHub</div>
                 <div className="ArchivingWrap">
@@ -99,12 +104,13 @@ const AboutMe = () => {
                     </a>
                 </div>
             </div>
-
+            {/* 나의 프로젝트 */}
             <div className="projectsWrap">
                 <div id="MyProjectsBox" className="title">My projects</div>
 
                 <div style={{ padding: '3%', borderRadius: '4%', backgroundColor: 'white', float: 'left', width: '80%', marginLeft: '10%', height: 'auto', textAlign: 'center' }}>
                     <h1>COPANG</h1>
+                    {/* carousel (넘어가는 이미지) */}
                     <div id="myCarousel" className="carousel slide" data-ride="carousel" style={{ padding: '5%', width: '80%', margin: 'auto' }}>
 
                         <ol className="carousel-indicators">
@@ -135,10 +141,12 @@ const AboutMe = () => {
                                 <img src="캡처6.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                         </div>
+                        {/* 이전 이미지로 넘어가기 */}
                         <a className="left carousel-control" href="#myCarousel" data-slide="prev">
                             <span className="glyphicon glyphicon-chevron-left"></span>
                             <span className="sr-only">Previous</span>
                         </a>
+                        {/* 다음 이미지로 넘어가기 */}
                         <a className="right carousel-control" href="#myCarousel" data-slide="next">
                             <span className="glyphicon glyphicon-chevron-right"></span>
                             <span className="sr-only">Next</span>
@@ -257,24 +265,21 @@ const AboutMe = () => {
                         </ol>
                         <div className="carousel-inner">
                             <div className="item active">
-                                <img src="포폴1.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
+                                <img src="port.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
 
                             <div className="item">
-                                <img src="포폴2.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
+                                <img src="port2.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
 
                             <div className="item">
-                                <img src="포폴3.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
+                                <img src="port3.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                             <div className="item">
-                                <img src="포폴4.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
+                                <img src="port4.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                             <div className="item">
-                                <img src="포폴5.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
-                            </div>
-                            <div className="item">
-                                <img src="포폴6.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
+                                <img src="port5.PNG" alt="" style={{ width: '100%', height: '500px', margin: 'auto' }} />
                             </div>
                         </div>
                         <a className="left carousel-control" href="#myCarousel3" data-slide="prev">
@@ -317,4 +322,4 @@ const AboutMe = () => {
     )
 }
 
-export default AboutMe;
+export default content;

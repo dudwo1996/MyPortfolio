@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import MyPortfolio from './MyPortfolio'
-import AboutMe from './AboutMe';
+import Content from './content';
 import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <MyPortfolio />
-    <AboutMe/>
+    <Content/>
   </React.StrictMode>,
   document.getElementById('root')
 );
